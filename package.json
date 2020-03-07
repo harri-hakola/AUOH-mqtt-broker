@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/harri-hakola/AUOH-mqtt-broker/issues"
   },
-  "homepage": "https://github.com/harri-hakola/AUOH-mqtt-broker#readme"
+  "homepage": "https://github.com/harri-hakola/AUOH-mqtt-broker#readme",
+  "dependencies": {
+    "aedes": "^0.40.1",
+    "websocket-stream": "^5.5.2"
+  }
 }
